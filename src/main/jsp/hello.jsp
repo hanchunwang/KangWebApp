@@ -7,8 +7,10 @@
 <title>测试springMVC</title>
 </head>
 <body>
-	${message}
+	${message};
 	<br/>
 	我是一个兵；
+	<br/>
+	<%=request.getAttribute("message")%>
 </body>
 </html>
